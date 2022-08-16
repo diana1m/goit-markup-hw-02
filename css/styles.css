@@ -1,0 +1,86 @@
+body{
+
+}
+
+.header {}
+
+.logo {}
+
+.logo-part {}
+
+.navigation {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {}
+
+.contacts-list {}
+
+.contacts-item {}
+
+.contacts-link {}
+
+.hero {}
+
+.main-title {}
+
+.hero-btn {}
+
+.features {}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-title {}
+
+.features-text {}
+
+.about {}
+
+.about-title {}
+
+.about-list {}
+
+.about-item {}
+
+.about-img {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-name {}
+
+.team-info {}
+
+.footer {}
+
+.adr {}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-contacs {}
