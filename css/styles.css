@@ -1,23 +1,38 @@
 :root{
+    /* Fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* Text colors */
     --primery-text-color: #757575;
     --title-text-color: #212121;
     --accent-text-color: #2196F3;
-    --background-color: #2F303A;
-    
+    --light-text-color: #FFFFFF;
+    --black-text-color: #000000;
+    --contacs-text-color: color: rgba(255, 255, 255, 0.6);
+
+    /* Background colors */
+    --bg-color: #2F303A;
+    --secondary-bg-color: #F5F4FA;
+    --accent-bg-color: #2196F3;
+    --light-bg-color: #FFFFFF;
 }
 
 body{
-    color: #757575;
+    font-family: var(--main-font);
+    color: var(--primery-text-color);
 }
 
-ul{
+.list{
     list-style: none;
 }
-a{
+
+.link{
     text-decoration: none;
 }
 
-.header {}
+.header {
+}
 
 .logo {}
 
@@ -68,7 +83,8 @@ a{
 
 .about {}
 
-.about-title {}
+.about-title {
+}
 
 .about-list {}
 
