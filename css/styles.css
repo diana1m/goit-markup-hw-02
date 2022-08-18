@@ -1,9 +1,20 @@
+:root{
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --background-color: #2F303A;
+    
+}
+
 body{
     color: #757575;
 }
 
 ul{
-    list-style-type: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 
 .header {}
