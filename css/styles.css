@@ -9,7 +9,7 @@
     --accent-text-color: #2196F3;
     --light-text-color: #FFFFFF;
     --black-text-color: #000000;
-    --contacs-text-color: color: rgba(255, 255, 255, 0.6);
+    --contacs-text-color: rgba(255, 255, 255, 0.6);
 
     /* Background colors */
     --bg-color: #2F303A;
@@ -243,22 +243,8 @@ body{
 
 .list {}
 
-/* .btn-item {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
+.btn-item {} 
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    color: var(--light-text-color);
-    background-color: var(--accent-bg-color);
-
-    cursor: pointer;
-} */
 .btn-portfolio{
     font-family: inherit;
     font-weight: 500;
@@ -268,6 +254,8 @@ body{
     color: var(--title-text-color);
 
     background-color:var(--secondary-bg-color);
+
+    cursor: pointer;
 }
 
 .btn-portfolio:hover,
